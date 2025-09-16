@@ -25,10 +25,10 @@ An AI-powered medical image analysis tool that leverages advanced computer visio
 
 2. **Set up a virtual environment (recommended):**
    ```sh
-   python -m venv med
-   source med/Scripts/activate  # On Windows
+   python -m venv venv
+   source venv/Scripts/activate  # On Windows
    # or
-   source med/bin/activate      # On macOS/Linux
+   source venv/bin/activate      # On macOS/Linux
    ```
 
 3. **Install dependencies:**
@@ -59,33 +59,6 @@ An AI-powered medical image analysis tool that leverages advanced computer visio
    Click "Analyze Image" to receive a detailed, structured report.
 
 ---
-
-## Example Output
-
-![Sample Output](test_images/chest_xray.jpg)
-
-```
-### 1. Image Type & Region
-- Modality: X-ray
-- Region: Chest (PA view)
-- Quality: Adequate
-
-### 2. Key Findings
-- Mild infiltrates in right lower lobe
-- No pleural effusion
-- Heart size normal
-
-### 3. Diagnostic Assessment
-- Primary: Mild pneumonia (Confidence: 85%)
-- Differential: Atelectasis, Pulmonary edema
-
-### 4. Patient-Friendly Explanation
-- "There is a mild infection in your right lung, which is treatable..."
-
-### 5. Research Context
-- [Recent study on pneumonia treatment](https://...)
-- [Standard protocol](https://...)
-```
 
 ---
 
